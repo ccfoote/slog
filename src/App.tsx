@@ -159,6 +159,9 @@ function App() {
           </div>
         ))}
       </div>
+      <div className="app-info" style={{ marginTop: '20px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', fontSize: '0.9em', color: '#666' }}>
+        <p>This is a daily activity log to help you track your habits and routines. Click any activity button to log it for today, or use the + button to add new activities. Each log entry shows the day and activity completed. Use this to track daily goals like "call mom" or regular activities like "morning walk".</p>
+      </div>
     </div>
   )
 }
